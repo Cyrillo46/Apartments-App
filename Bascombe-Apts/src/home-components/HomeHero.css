@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-image {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero-text h1 {
+  font-size: 5rem;
+}
+
+.hero-text p {
+  font-size: 2rem;
+}
+
+.hero-text button {
+  padding: 1rem;
+  background-color: coral;
+  color: darkgreen;
+  border-radius: 15px;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
