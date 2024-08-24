@@ -9,6 +9,22 @@ a {
   color: white;
 }
 
+ul {
+  width: 100%;
+  columns: 2;
+  list-style-position: inside;
+  column-gap: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  margin-bottom: 0;
+}
+
 /*! Hero section */
 
 .hero-image {
@@ -117,4 +133,33 @@ section {
 }
 
 .review {
+}
+
+/*! Footer */
+.footer-form {
+  text-align: center;
+}
+
+.footer-container {
+  height: 30vh;
+  display: flex;
+  width: 100%;
+}
+
+.footer-logo {
+  background-color: antiquewhite;
+  width: 33%;
+}
+
+.footer-amenities {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: chartreuse;
+  width: 33%;
+  padding: 1rem;
+}
+
+.footer-experiences {
+  background-color: chocolate;
+  width: 33%;
 }

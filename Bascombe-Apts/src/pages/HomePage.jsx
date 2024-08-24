@@ -1,3 +1,4 @@
+import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
 import { ReviewSection } from "../components/ReviewSection";
 import { SectionDescription } from "../components/SectionDescription";
@@ -14,6 +15,7 @@ function HomePage() {
       <SectionLink className="section-2" />
       <SectionLink className="section-3" />
       <ReviewSection />
+      <Footer />
     </>
   );
 }
