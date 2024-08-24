@@ -28,6 +28,7 @@
   bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
+  margin: 1rem;
 }
 
 .hero-text h1 {
@@ -40,6 +41,7 @@
 
 .hero-text button {
   padding: 1rem;
+  margin: 1rem;
   background-color: coral;
   color: darkgreen;
   border-radius: 15px;
