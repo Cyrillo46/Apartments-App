@@ -1,4 +1,5 @@
 import { Navbar } from "../components/Navbar";
+import { ReviewSection } from "../components/ReviewSection";
 import { SectionDescription } from "../components/SectionDescription";
 import { SectionLink } from "../components/SectionLink";
 import { HomeHero } from "../home-components/HomeHero";
@@ -10,6 +11,9 @@ function HomePage() {
       <HomeHero />
       <SectionDescription />
       <SectionLink />
+      <SectionLink />
+      <SectionLink />
+      <ReviewSection />
     </>
   );
 }

@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Hero section */
 
 .hero-image {
   height: 100vh;
@@ -47,12 +48,15 @@
   border-radius: 15px;
   border: none;
 }
-
-.section-description,
+/* Sections */
 section {
   height: 25vh;
   width: 100%;
   background-color: blue;
+}
+
+.section-description {
+  text-align: center;
 }
 
 .section-title {
@@ -60,6 +64,39 @@ section {
 
 .section-link {
   background-color: blueviolet;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.feature-banner {
+  width: 100%;
+}
+
+.feature-banner-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.feature-banner-heading {
+  font-size: 3.5rem;
+}
+
+.feature-banner-link {
+  font-size: 1.2rem;
+}
+
+/* Review Section */
+.review-section {
+  background-color: red;
+}
+
+.review-title {
+}
+
+.review {
 }
 
 a {
