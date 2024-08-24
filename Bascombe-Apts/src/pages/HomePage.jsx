@@ -10,9 +10,9 @@ function HomePage() {
       <Navbar />
       <HomeHero />
       <SectionDescription />
-      <SectionLink />
-      <SectionLink />
-      <SectionLink />
+      <SectionLink className="section-1" />
+      <SectionLink className="section-2" />
+      <SectionLink className="section-3" />
       <ReviewSection />
     </>
   );

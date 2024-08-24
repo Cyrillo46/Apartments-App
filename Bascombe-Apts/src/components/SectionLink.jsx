@@ -1,7 +1,7 @@
-export const SectionLink = () => {
+export const SectionLink = ({ className }) => {
   return (
     <>
-      <section className="section-link">
+      <section className={`section-link ${className}`}>
         {/* <img src="" alt="" /> */}
         <div className="feature-banner">
           <div className="feature-banner-text">
