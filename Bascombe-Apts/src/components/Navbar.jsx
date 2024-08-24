@@ -2,10 +2,21 @@ export const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <a href="">Apartments</a>
-        <a href="">Bar/Grill</a>
-        <a href="">Currencies</a>
-        <a href="">Reserve</a>
+        <div className="navbar-left">B.C.A.</div>
+        <div className="navbar-right">
+          <a href="" className="nav-item">
+            Apartments
+          </a>
+          <a href="" className="nav-item">
+            Bar/Grill
+          </a>
+          <a href="" className="nav-item">
+            Currencies
+          </a>
+          <a href="" className="nav-item">
+            Reserve
+          </a>
+        </div>
       </nav>
     </>
   );
