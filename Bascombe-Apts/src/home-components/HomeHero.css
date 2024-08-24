@@ -48,6 +48,20 @@
   border: none;
 }
 
+.section-description,
+section {
+  height: 25vh;
+  width: 100%;
+  background-color: blue;
+}
+
+.section-title {
+}
+
+.section-link {
+  background-color: blueviolet;
+}
+
 a {
   text-decoration: none;
   color: white;

@@ -1,5 +1,6 @@
 import { Navbar } from "../components/Navbar";
 import { SectionDescription } from "../components/SectionDescription";
+import { SectionLink } from "../components/SectionLink";
 import { HomeHero } from "../home-components/HomeHero";
 
 function HomePage() {
@@ -7,7 +8,8 @@ function HomePage() {
     <>
       <Navbar />
       <HomeHero />
-
+      <SectionDescription />
+      <SectionLink />
     </>
   );
 }
