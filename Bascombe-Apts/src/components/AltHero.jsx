@@ -1,4 +1,4 @@
-export const HomeHero = () => {
+export const AltHero = () => {
   return (
     <>
       <header

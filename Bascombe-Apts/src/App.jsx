@@ -2,6 +2,7 @@
 // import Header from "./home-components/Header.jsx";
 // import Footer from "./home-components/Footer.jsx";
 import ApartmentPage from "./pages/ApartmentPage";
+import { BarPage } from "./pages/BarPage";
 import HomePage from "./pages/HomePage";
 // import BarPage from "./pages/BarPage";
 // import ApartmentPage from "./pages/ApartmentPage.jsx";
@@ -14,7 +15,7 @@ function App() {
     <>
       {/* <RouterProvider router={router} /> */}
       {/* <HomePage /> */}
-      <ApartmentPage />
+      <BarPage />
       {/* <BarPage /> */}
       {/* <ApartmentPage /> */}
     </>
