@@ -1,7 +1,9 @@
 // import { BrowserRouter as Router, Route, Routes } from "react-dom";
 // import Header from "./home-components/Header.jsx";
 // import Footer from "./home-components/Footer.jsx";
+import ApartmentPage from "./pages/ApartmentPage";
 import HomePage from "./pages/HomePage";
+// import BarPage from "./pages/BarPage";
 // import ApartmentPage from "./pages/ApartmentPage.jsx";
 // import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -11,7 +13,9 @@ function App() {
   return (
     <>
       {/* <RouterProvider router={router} /> */}
-      <HomePage />
+      {/* <HomePage /> */}
+      <ApartmentPage />
+      {/* <BarPage /> */}
       {/* <ApartmentPage /> */}
     </>
   );

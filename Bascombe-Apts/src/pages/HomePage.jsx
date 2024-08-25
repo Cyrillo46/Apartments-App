@@ -4,6 +4,7 @@ import { ReviewSection } from "../components/ReviewSection";
 import { SectionDescription } from "../components/SectionDescription";
 import { SectionLink } from "../components/SectionLink";
 import { HomeHero } from "../home-components/HomeHero";
+import "../home-css/Home.css";
 
 function HomePage() {
   return (

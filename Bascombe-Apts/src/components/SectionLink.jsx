@@ -1,3 +1,5 @@
+import "../component-css/SectionLink.css";
+
 export const SectionLink = ({ className }) => {
   return (
     <>

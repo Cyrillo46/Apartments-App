@@ -1,5 +1,3 @@
-import "./HomeHero.css";
-
 export const HomeHero = () => {
   return (
     <>

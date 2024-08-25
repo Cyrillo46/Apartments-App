@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  margin-bottom: 0;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-left {
+  padding: 1em;
+}
+
+.navbar-right .nav-item {
+  padding: 0.5em;
+  cursor: pointer;
+}

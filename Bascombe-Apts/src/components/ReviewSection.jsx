@@ -1,3 +1,5 @@
+import "../component-css/ReviewSection.css";
+
 export const ReviewSection = () => {
   return (
     <>

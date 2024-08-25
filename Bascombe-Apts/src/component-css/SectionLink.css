@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.feature-banner {
+  width: 100%;
+}
+
+.feature-banner-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.feature-banner-heading {
+  font-size: 3.5rem;
+}
+
+.feature-banner-link {
+  font-size: 1.2rem;
+}

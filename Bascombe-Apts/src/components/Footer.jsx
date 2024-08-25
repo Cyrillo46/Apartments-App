@@ -1,3 +1,5 @@
+import "../component-css/Footer.css";
+
 export const Footer = () => {
   return (
     <>
@@ -43,7 +45,7 @@ export const Footer = () => {
         />
       </form>
       <div className="footer-container">
-        <div className="footer-logo"></div>
+        <div className="footer-logo">B.C.A.</div>
         <div className="footer-amenities">
           <ul>
             <li>
@@ -75,7 +77,7 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="footer-experiences"></div>
+        <div className="footer-experiences">EXPERIENCES</div>
       </div>
     </>
   );

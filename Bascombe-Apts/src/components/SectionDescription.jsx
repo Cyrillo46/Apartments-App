@@ -1,3 +1,5 @@
+import "../component-css/SectionDescription.css";
+
 export const SectionDescription = () => {
   return (
     <>
